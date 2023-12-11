@@ -22,7 +22,8 @@ background-color:#FFFFFFFF;
 .container{
     width: 1158px;
     margin: 0;
-    padding: 0 15px 0 15px 0 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 
@@ -154,6 +155,7 @@ margin-right: 76px;
 
 .section-style{
     background-color:#2e2f42;
+    padding:188px 0;
 }
 .section-title{
     font-size:56px;
@@ -161,16 +163,22 @@ margin-right: 76px;
     text-align: center;
     letter-spacing: 0.02em;
     color:#ffffff;
+    max-width: 496px;
 }
 .button-order-service{
-    background-color: #4D5AE5;
+    background-color:var(--blue);
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
-    cursor:pointer;
+    cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border:none;
+    border-radius: 4px;
 }
 
 .button-order-service:focus{
