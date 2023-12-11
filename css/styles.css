@@ -15,13 +15,24 @@ color: #434455;
 background-color:#FFFFFFFF;
 }
 
+
 .nav-bar-container{
     color:#2e2f42;
     text-decoration: none;
+    
 }
+
+.flex{
+display:flex;
+justify-content: space-between;
+align-items: center;
+}
+
+
 
 .nav-bar-container:hover{
     color:var(--iris);
+    flex-direction: row;
 }
 
 .nav-bar-container:focus{
@@ -48,6 +59,7 @@ text-transform:uppercase;
 .list {
     list-style: none;
     text-decoration: none;
+    
 }
 
 .nav-list-item{
@@ -68,7 +80,11 @@ text-transform:uppercase;
 .address-class{
     font-style: normal;
     text-decoration: none;
-    color:var(--text-color)
+    color:var(--text-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    flex-direction: row;
 }
 
 .address-list {
@@ -174,6 +190,12 @@ font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
+  margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px;
+  width: 1440px;
+  height: 312px;
+  
 }
 
 .link {
@@ -217,6 +239,15 @@ font-family: "Raleway", sans-serif;
     color:#2e2f42;
 }
 
+.projects-portfolio{
+    display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      width: 30%;
+      flex-direction: row;
+      justify-content: center;
+}
+
 .portfolio-description {
     font-size: 16px;
     line-height: 1.5;
@@ -226,4 +257,8 @@ font-family: "Raleway", sans-serif;
 
 .project-link{
     color:var(--text-color);
+}
+
+.project-image{
+    display:block;
 }

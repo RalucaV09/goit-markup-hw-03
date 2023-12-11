@@ -8,32 +8,41 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&amp;family=Roboto:wght@400;500;700;900&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
     <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 </head>
 <body class="body">
     <!--Header Section-->
     <header>
-        <nav class="nav-bar-container link">
-          <a class="logo link" href="./index.html">Web<span class="span-logo-header">Studio</span>
-          </a>
-          <ul class="list">
-            <li><a href="./index.html" class="nav-list-item link">Studio</a></li>
-            <li ><a href="./portfolio.html" class="nav-list-item link">Portfolio</a></li>
-            <li><a href="" class="nav-list-item link">Contacts</a></li>
-          </ul>
-        </nav>
-        
-          <address class="address-class">
-            <ul class="list">
-              <li><a href="mailto:info@devstudio.com" class="address-list link">info@devstudio.com</a></li>
-              <li><a href="tel:+110001111111" class="address-list link">+11 (000) 111-11-11</a></li>
-            </ul> 
-          </address>
+        <div class="flex">
+          <nav class="nav-bar-container link flex">
+            <a class="logo link" href="./index.html">Web<span class="span-logo-header">Studio</span>
+            </a>
+            <ul class="list flex">
+              <li><a href="./index.html" class="nav-list-item link">Studio</a></li>
+              <li ><a href="./portfolio.html" class="nav-list-item link">Portfolio</a></li>
+              <li><a href="" class="nav-list-item link">Contacts</a></li>
+            </ul>
+          </nav>
+          
+            <address class="address-class">
+              <ul class="list flex">
+                <li><a href="mailto:info@devstudio.com" class="address-list link">info@devstudio.com</a></li>
+                <li><a href="tel:+110001111111" class="address-list link">+11 (000) 111-11-11</a></li>
+              </ul> 
+            </address>
+        </div>
       </header>
 
     <main>
-        <section>
+        <section class="projects-portfolio">
             <h1 hidden>Hidden Title</h1>
-            <ul class="list">
+            <ul class="list flex">
                 <li><button type="button" class="button-portfolio">All</button></li>
                 <li><button type="button" class="button-portfolio">Web Site</button></li>
                 <li><button type="button" class="button-portfolio">App</button></li>
@@ -41,7 +50,7 @@
                 <li><button type="button" class="button-portfolio">Marketing</button></li>
             </ul>
         
-            <ul class="list">
+            <ul class="list ">
                 <li>
                     <a class="project-link link" href="">
                         <img class="project-image" src="./images/bankingapp1.jpg" alt="bankingapp" width="360">
@@ -120,7 +129,7 @@
         
     </main>
     <footer class="footerstyle">
-        <a href="./index.html" class="footer-logo link">Web<span class="span-logo-footer">Studio</span></a>
+        <a class="footer-logo link" href="./index.html">Web<span class="span-logo-footer">Studio</span></a>
           <p class="footerp">
             Increase the flow of customers and sales for your business with
             digital marketing & growth solutions.
