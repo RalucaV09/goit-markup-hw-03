@@ -273,8 +273,7 @@ font-family: "Raleway", sans-serif;
       width: 30%;
       flex-direction: row;
       justify-content: center;
-      padding-top: 96px; 
-      padding-bottom: 120px;
+      padding: 96px 0 120px 0;
 }
 
 .project-list{
