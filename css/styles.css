@@ -231,15 +231,43 @@ margin-right: 76px;
 .section-four{
     background-color: #F4F4FD;
     color:var(--text-color);
+    padding: 120px 0;
+}
+
+.section-four-title{
+    margin-bottom: 72px;
+}
+
+.sectionfourlist{
+    display: flex;
+    gap: 24px;
+    
 }
 
 .element-list-four{
-   background-color: #FFFFFFFF; 
+   background-color: #FFFFFFFF;
+   width: calc(100% - 72px)/4;
+   border-radius: 0px 0px 4px 4px 4px; 
+}
+
+.employeediv{
+    padding: 32px 0;
+}
+
+.sectionfour-listtitle{
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.sectionfour-paragraph{
+    text-align: center;
 }
 
 
 .footerstyle{
-    background-color: #2e2f42;}
+    background-color: #2e2f42;
+    padding: 100px 0;
+}
 
 .footer-logo{
 font-family: "Raleway", sans-serif;
@@ -268,6 +296,7 @@ font-family: "Raleway", sans-serif;
     line-height: 1.5;
     color:#F4F4FD;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
 .button-portfolio {
     font-family: "Roboto", sans-serif;
