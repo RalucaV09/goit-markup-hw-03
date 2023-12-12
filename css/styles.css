@@ -331,6 +331,7 @@ font-family: "Raleway", sans-serif;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:#2e2f42;
+    width: calc(100% - 48px)/3;
 }
 
 .projects-portfolio{
@@ -362,6 +363,8 @@ font-family: "Raleway", sans-serif;
 }
 .li-element{
     width: calc(100% - 48px)/3;
+    flex-wrap: wrap;
+    row-gap: 48px;
 
 }
 .project-container{
@@ -369,6 +372,7 @@ font-family: "Raleway", sans-serif;
     border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px;
+    width: calc(100% - 48px)/3;
 }
 
 .portfolio-description {
