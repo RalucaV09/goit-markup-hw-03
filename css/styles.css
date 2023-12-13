@@ -375,14 +375,12 @@ font-family: "Raleway", sans-serif;
     row-gap:48px;
     display: flex;
     column-gap: 24px;
-    row-gap: 48px;
     padding: 0;
 }
 
 .li-element{
     width: calc((100% - 48px)/3);
     flex-wrap: wrap;
-    row-gap: 48px;
     
 }
 .elementofbiglist{
