@@ -18,6 +18,12 @@ background-color:#FFFFFFFF;
 .header{
     border-bottom: 1px solid #e7e9fc;
 }
+.container-header{
+    width: 1158x;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
 .container{
     width: 1200px;
@@ -228,7 +234,7 @@ margin-right: 76px;
 }
 
 .elementoflistthree{
-    width: calc(100% - 48px)/3; 
+    flex-basis: calc((100% - 48px) / 3); 
 }
 
 .section-four{
@@ -250,7 +256,8 @@ margin-right: 76px;
 .element-list-four{
    background-color: #FFFFFFFF;
    width: calc(100% - 72px)/4;
-   border-radius: 0px 0px 4px 4px; 
+   border-radius: 0px 0px 4px 4px;
+   flex-basis: calc((100% - 3 * 24px)/4); 
 }
 
 .employeediv{
