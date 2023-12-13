@@ -372,7 +372,7 @@ font-family: "Raleway", sans-serif;
 
 .biglist{
     flex-wrap:wrap;
-    row-gap:48px;
+    row-gap: 48px;
     display: flex;
     column-gap: 24px;
     padding: 0;
