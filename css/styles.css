@@ -20,10 +20,11 @@ background-color:#FFFFFFFF;
 }
 
 .container{
-    width: 1158px;
+    width: 1200px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
+    padding: 0%;
 }
 
 
@@ -78,6 +79,7 @@ margin-right: 76px;
     list-style: none;
     text-decoration: none;
     gap: 40px;
+    padding: 0%;
 
     
 }
@@ -324,7 +326,7 @@ font-family: "Raleway", sans-serif;
     color: #FFFFFFFF;
     background-color: #404BBF;
     border: 1px solid transparent;
-}
+portfolio-big}
 
 .portfolio-header{
     font-weight: 500;
@@ -350,12 +352,8 @@ font-family: "Raleway", sans-serif;
       padding: 96px 0 120px 0;
 }
 
-.project-list{
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 48px;
-}
+
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -372,10 +370,14 @@ font-family: "Raleway", sans-serif;
 .biglist{
     flex-wrap:wrap;
     row-gap:48px;
+    display: flex;
+    column-gap: 24px;
+    row-gap: 48px;
+    padding: 0;
 }
 
 .li-element{
-    width: calc(100% - 48px)/3;
+    width: calc((100% - 48px)/3);
     flex-wrap: wrap;
     row-gap: 48px;
     
