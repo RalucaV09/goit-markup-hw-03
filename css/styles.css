@@ -200,6 +200,7 @@ margin-right: 76px;
 .firstelementoflist{
     width: 100%; 
     min-width: 264px;
+    border-radius: 0px 0px 4px 4px 4px;
 }
 
 .firsttitleoflist{
